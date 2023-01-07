@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+        padding: 0px;
+}
+@media(min-width:586px) {
+    .navbar{
+        height: 70px;
+        padding:0px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size:x-large;
+        border-bottom: 1px solid lightgray;
+        position:sticky;
+
+    }
+    .logo{
+        font-size: xx-large;
+    }
+    .login{
+        display: flex;
+        font-size:large;
+        justify-content: space-between;
+    }
+    .login div{
+        margin: 0px 15px;
+        
+    }
+    .login a{
+        text-decoration: none;
+        color: black;
+    } 
+    .create-store a{
+        text-decoration: none;
+        border: 1px solid lightgray;
+        padding: 15px 30px;
+        border-radius: 50px;
+        background-color: black;
+        color:white;
+        font-weight: 600;
+        font-size: medium;
+        
+    }
+    .menu{
+        font-size:large;
+        display: flex;
+        justify-content: left;
+    }
+    ul{
+        padding-left: 0px;
+        margin: 18px 20px;
+    }
+    ul a{
+        text-decoration: none;
+        color: black;
+    }
+    .content-img{
+        width: 100% ;
+        object-fit: cover ;
+    }
+    .c-1{
+        height: 335px;
+        width: 100%;
+        padding-top: 45px;
+        text-align: center;
+        background-color:#a3c7ef;
+        border-bottom: 1px solid #888888;
+    }
+    .c-p{
+        font-size: x-large;
+        margin-bottom: 0px;
+    }
+    .c-h1{
+        font-size:75px;
+        margin: 0px 0px ;
+        font-weight:bolder;
+    }
+    .content-ip-btn{
+        text-decoration: none;
+        border: 1px solid rgb(254, 68, 0);
+        padding: 15px 30px;
+        border-radius: 50px;
+        background-color: rgb(254, 68, 0);
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+        font-size: larger;
+    }
+    .c-ip{
+        margin-top: 30px;
+
+
+    }
+    .c-ip-email{
+        width: 300px;
+        /* height: 45px; */
+        border-radius: 50px;
+        outline: none;
+        padding: 15px 30px;
+        font-size: larger;
+        border: 1px solid orangered;
+        margin-right: 20px;
+    }
+    .c-ip-email placeholder{
+        color: black;
+    }
+    .c-2{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .c-3{
+        display: flex;
+        padding: 100px 180px ;
+        background-color: #d3d3d366;
+        justify-content:space-around;
+        height: 240px;
+        align-items:flex-start;
+        font-size: 25px;
+    }
+    .c-3a{
+        width: 400px;
+        margin:0px 5px;
+    }
+    .c-3a p{
+        margin-top: 0px;
+    }
+    .c-3a-1{
+        display: block;
+
+    }
+    .c-3a-1 h1{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .bt2{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: large;
+    }
+    .c-4{
+        padding: 85px 40px;
+    }
+    .c-4h{
+        margin: 15px;
+        text-align: center;
+        font-size: 51px;
+        
+    }
+    .c-4p{
+        color: grey;
+        text-align: center;
+        margin: 2px;
+        font-size: 20px;
+
+    }
+    
+}
+@midea(max-width:586px)
+{
+
+}
